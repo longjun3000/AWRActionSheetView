@@ -39,7 +39,7 @@ AWRActionSheetView现有的功能：
 2、在需要的地方引入头文件：
 
 ```
-#import "IAWRActionSheetView.h"
+#import "AWRActionSheetView.h"
 ```
 
 3、代码例子：

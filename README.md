@@ -36,10 +36,10 @@ AWRActionSheetView existing features:
 
 1. Add the "AWRActionSheetView.h" and "AWRActionSheetView.m" source files to your project.
 
-2. Introduce header files where necessary:
+2. Import header files where necessary:
 
 ```
-#import "IAWRActionSheetView.h"
+#import "AWRActionSheetView.h"
 ```
 
 3. Code usage example:
