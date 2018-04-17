@@ -4,15 +4,15 @@ AWRActionSheetView is an enhanced ActionSheetView, set different parameters, can
 
 AWRActionSheetView existing features:
 
-1. The UIAlertControllerStyleActionSheet style of the standard UIAlertController is displayed.
+1. It can display the standard UIAlertControllerStyleActionSheet style of the UIAlertController.
 
-2. enhance the display with the icon style.
+2. It can display the style with icons.
 
-3. enhance the display of the style of the subtitle.
+3. It can display the style with subtitles.
 
-4. can customize the View of the head.
+4. It can customize the view of the head.
 
-5. you can mix and match a variety of display styles.
+5. It can mix various display styles.
 
 ## Display style
 ### 1. Show normal:
