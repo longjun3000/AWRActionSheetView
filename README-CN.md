@@ -1,52 +1,53 @@
-[查看中文文档](https://github.com/longjun3000/AWRActionSheetView/blob/master/README-CN.md "Chinese README.md") 
+[View English document](https://github.com/longjun3000/AWRActionSheetView/blob/master/README.md "English README.md") 
 # AWRActionSheetView
-AWRActionSheetView is an enhanced ActionSheetView, set different parameters, can show more styles, apply to more scenarios.
+AWRActionSheetView是一个增强型的ActionSheetView，设置不同的参数，可以展现更多的样式，适用于更多的场景。
 
-AWRActionSheetView existing features:
+AWRActionSheetView现有的功能：
 
-1. The UIAlertControllerStyleActionSheet style of the standard UIAlertController is displayed.
+1、能够显示标准的UIAlertController的UIAlertControllerStyleActionSheet样式。
 
-2. enhance the display with the icon style.
+2、能够显示带图标的样式。
 
-3. enhance the display of the style of the subtitle.
+3、能够显示带子标题的样式。
 
-4. can customize the View of the head.
+4、能够自定义头部的View。
 
-5. you can mix and match a variety of display styles.
+5、能够混搭各种显示样式。
 
-## Display style
-### 1. Show normal:
+
+## 显示样式
+### 1. Show normal （显示常规情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot03.png)
-### 2. Show normal without head:
+### 2. Show normal without head（显示常规情况且没有头部）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot04.png)
-### 3. Show normal with custom head view:
+### 3. Show normal with custom head view（显示常规情况，并且带有自定义的头部视图）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot05.png)
-### 4. Show with icon:
+### 4. Show with icon（显示带图标的情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot06.png)
-### 5. Show with subtitle:
+### 5. Show with subtitle（显示带子标题的情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot07.png)
-### 6. Show with subtitle and icon:
+### 6. Show with subtitle and icon（显示带子标题和图标的情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot08.png)
-### 7. Show with item title style:
+### 7. Show with item title style（显示带选项标题样式的情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot09.png)
-### 8. Show with mixed items:
+### 8. Show with mixed items（显示混合选项的情况）:
 ![image](https://raw.githubusercontent.com/longjun3000/AWRActionSheetView/master/Screenshot/iOS/Screenshot10.png)
 
-# How to use ?
+# 如何使用？
+1、将“AWRActionSheetView.h”和“AWRActionSheetView.”源码文件加入到您的项目工程中。
 
-1. Add the "AWRActionSheetView.h" and "AWRActionSheetView.m" source files to your project.
-
-2. Introduce header files where necessary:
+2、在需要的地方引入头文件：
 
 ```
 #import "IAWRActionSheetView.h"
 ```
 
-3. Code usage example:
+3、代码例子：
 
 ```
 /**
  * Show normal
+ * 显示常规情况
  */
 - (IBAction)showNormalAction:(id)sender {
 
@@ -78,11 +79,11 @@ AWRActionSheetView existing features:
 }
 ```
 
-Note: for more examples, please refer to "ViewController.m" under the "AWRActionSheetViewDemo" project.
+注：更多使用范例请参考源码“AWRActionSheetViewDemo”工程下的“ViewController.m”。
 
 
 
-# Contact
+# 联系方式
 ArwerSoftware@gmail.com
 
 
